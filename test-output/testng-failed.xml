@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.DefineReportTest">
+        <methods>
+          <include name="validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField"/>
+          <include name="setup"/>
+          <include name="validate_functionality_of_Back_button"/>
+          <include name="validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportName_in_SearchFor_inputField"/>
+          <include name="validate_functionality_of_SearchForField_when_clickOn_SearchFor_text"/>
+          <include name="validate_the_functionality_of_SearchFor_field_when_clickOn_inputBox"/>
+          <include name="validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_validReportName_in_SearchFor_inputField"/>
+          <include name="Functionality_of_SearchBy_field_by_clicking_on_selectBox"/>
+          <include name="validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_invalidReportName_in_SearchFor_inputField"/>
+          <include name="validate_functionality_of_SearchButton_without_searchByFieldSelection_andEntervalReportID_in_SearchFor_inputField"/>
+          <include name="validate_functionality_of_Reset_button"/>
+          <include name="validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_validReportID_in_SearchFor_inputField"/>
+          <include name="validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportName_in_SearchFor_inputField"/>
+          <include name="Validate_default_input_for_SelectBox"/>
+          <include name="validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportID_in_SearchFor_inputField"/>
+          <include name="validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField"/>
+          <include name="Validate_functionality_of_SearchButton_without_input"/>
+          <include name="validate_functionality_Search_button_without_SearchByField_selection_and_entervalReportName_in_SearchFor_inputField"/>
+          <include name="validate_functionality_of_ReportID_link_by_clickOn_ReportID"/>
+        </methods>
+      </class> <!-- test.DefineReportTest -->
+      <class name="test.ViewReportTest">
+        <methods>
+          <include name="validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportName_in_SearchFor_inputField"/>
+          <include name="validate_functionality_of_Back_button"/>
+          <include name="validate_the_functionality_of_SearchFor_field_when_clickOn_inputBox"/>
+          <include name="validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_validReportName_in_SearchFor_inputField"/>
+          <include name="validate_functionality_of_Reset_button"/>
+          <include name="Validate_default_input_for_SelectBox"/>
+          <include name="validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField"/>
+          <include name="validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField"/>
+          <include name="validate_functionality_Search_button_without_SearchByField_selection_and_entervalReportName_in_SearchFor_inputField"/>
+          <include name="validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportID_in_SearchFor_inputField"/>
+          <include name="validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportName_in_SearchFor_inputField"/>
+          <include name="Validate_functionality_of_SearchButton_without_input"/>
+          <include name="setup"/>
+          <include name="validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_validReportID_in_SearchFor_inputField"/>
+          <include name="validate_functionality_of_SearchButton_without_searchByFieldSelection_andEntervalReportID_in_SearchFor_inputField"/>
+          <include name="validate_functionality_of_SearchForField_when_clickOn_SearchFor_text"/>
+          <include name="validate_functionality_of_ReportID_link_by_clickOn_ReportID"/>
+          <include name="Functionality_of_SearchBy_field_by_clicking_on_selectBox"/>
+          <include name="validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_invalidReportName_in_SearchFor_inputField"/>
+        </methods>
+      </class> <!-- test.ViewReportTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

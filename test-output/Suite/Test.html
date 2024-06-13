@@ -1,0 +1,330 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 13 21:01:03 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>117 seconds (117176 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ViewReportTest.Validate_functionality_of_SearchButton_without_input()'><b>Validate_functionality_of_SearchButton_without_input</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>1</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportName_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportName_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionality_of_ReportID_link_by_clickOn_ReportID()'><b>validate_functionality_of_ReportID_link_by_clickOn_ReportID</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>6</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.ViewReportTest.Validate_default_input_for_SelectBox()'><b>Validate_default_input_for_SelectBox</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ReportTest.Redirect_cursor_to_ReportField()'><b>Redirect_cursor_to_ReportField</b><br>Test class: test.ReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.ReportTest@6025e1b6</td></tr>
+<tr>
+<td title='test.ReportTest.DropdownBox_click_on_DefineReports_option()'><b>DropdownBox_click_on_DefineReports_option</b><br>Test class: test.ReportTest</td>
+<td></td>
+<td>3</td>
+<td>test.ReportTest@6025e1b6</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionality_of_SearchButton_without_searchByFieldSelection_andEntervalReportID_in_SearchFor_inputField()'><b>validate_functionality_of_SearchButton_without_searchByFieldSelection_andEntervalReportID_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.DefineReportTest.Functionality_of_SearchBy_field_by_clicking_on_selectBox()'><b>Functionality_of_SearchBy_field_by_clicking_on_selectBox</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionality_of_SearchForField_when_clickOn_SearchFor_text()'><b>validate_functionality_of_SearchForField_when_clickOn_SearchFor_text</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportID_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportID_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionality_of_ReportID_link_by_clickOn_ReportID()'><b>validate_functionality_of_ReportID_link_by_clickOn_ReportID</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>5</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>3</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionality_of_Reset_button()'><b>validate_functionality_of_Reset_button</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_validUsername_invalidPassword()'><b>login_TestCase_validUsername_invalidPassword</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_validReportName_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_validReportName_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_withoutUsername_validPassword()'><b>login_TestCase_withoutUsername_validPassword</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_the_functionality_of_SearchFor_field_when_clickOn_inputBox()'><b>validate_the_functionality_of_SearchFor_field_when_clickOn_inputBox</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.DefineReportTest.Validate_default_input_for_SelectBox()'><b>Validate_default_input_for_SelectBox</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_invalidReportName_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_invalidReportName_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_withoutUsername_invalidPassword()'><b>login_TestCase_withoutUsername_invalidPassword</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_the_functionality_of_SearchFor_field_when_clickOn_inputBox()'><b>validate_the_functionality_of_SearchFor_field_when_clickOn_inputBox</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_invalidUsername_invalidPassword()'><b>login_TestCase_invalidUsername_invalidPassword</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionality_of_SearchButton_without_searchByFieldSelection_andEntervalReportID_in_SearchFor_inputField()'><b>validate_functionality_of_SearchButton_without_searchByFieldSelection_andEntervalReportID_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_validReportName_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_validReportName_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_validUsername_validPassword()'><b>login_TestCase_validUsername_validPassword</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>5</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.ViewReportTest.Functionality_of_SearchBy_field_by_clicking_on_selectBox()'><b>Functionality_of_SearchBy_field_by_clicking_on_selectBox</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionality_of_Back_button()'><b>validate_functionality_of_Back_button</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>7</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportID_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionality_Search_button_without_SearchByField_selection_and_entervalReportName_in_SearchFor_inputField()'><b>validate_functionality_Search_button_without_SearchByField_selection_and_entervalReportName_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_validUsername_withoutPassword()'><b>login_TestCase_validUsername_withoutPassword</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_validReportID_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_validReportID_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>5</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.ReportTest.ReportField_visiblity_TestCase()'><b>ReportField_visiblity_TestCase</b><br>Test class: test.ReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.ReportTest@6025e1b6</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_invalidUsername_validPassword()'><b>login_TestCase_invalidUsername_validPassword</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionality_of_SearchForField_when_clickOn_SearchFor_text()'><b>validate_functionality_of_SearchForField_when_clickOn_SearchFor_text</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportName_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportName_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportName_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_selectionBox_enter_invalidReportName_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_invalidUsername_withoutPassword()'><b>login_TestCase_invalidUsername_withoutPassword</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.DefineReportTest.Validate_functionality_of_SearchButton_without_input()'><b>Validate_functionality_of_SearchButton_without_input</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>1</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportID_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportID_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.LoginTest.login_TestCase_without_entering_credentials()'><b>login_TestCase_without_entering_credentials</b><br>Test class: test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>test.LoginTest@54d9d12d</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionality_of_Reset_button()'><b>validate_functionality_of_Reset_button</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>0</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ReportTest.dropdownBox_clickOn_viewReports_option()'><b>dropdownBox_clickOn_viewReports_option</b><br>Test class: test.ReportTest</td>
+<td></td>
+<td>3</td>
+<td>test.ReportTest@6025e1b6</td></tr>
+<tr>
+<td title='test.ReportTest.Click_on_ReportField()'><b>Click_on_ReportField</b><br>Test class: test.ReportTest</td>
+<td></td>
+<td>3</td>
+<td>test.ReportTest@6025e1b6</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_invalidReportName_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_andEnter_invalidReportName_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionality_Search_button_without_SearchByField_selection_and_entervalReportName_in_SearchFor_inputField()'><b>validate_functionality_Search_button_without_SearchByField_selection_and_entervalReportName_in_SearchFor_inputField</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.DefineReportTest.validate_functionality_of_Back_button()'><b>validate_functionality_of_Back_button</b><br>Test class: test.DefineReportTest</td>
+<td></td>
+<td>7</td>
+<td>test.DefineReportTest@2d1ef81a</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportName_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_ID_optionSelectOn_SearchBy_andEnter_ReportName_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+<tr>
+<td title='test.ViewReportTest.validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_validReportID_in_SearchFor_inputField()'><b>validate_functionalityOf_SearchButton_with_Name_optionSelectOn_SearchBy_selectionBox_enter_validReportID_in_SearchFor_inputField</b><br>Test class: test.ViewReportTest</td>
+<td></td>
+<td>2</td>
+<td>test.ViewReportTest@22ff4249</td></tr>
+</table><p>
+</body>
+</html>
